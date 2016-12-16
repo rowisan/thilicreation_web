@@ -1,6 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 .thi1 {
+	width: 220px !important;
 	position: fixed;
 	top: 10px;
 	left: 100px;

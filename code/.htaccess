@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteRule ^(admin)/?$ /www/thili/admin/admin.php [NC]
+RewriteRule ^(login)/?$ /www/thili/admin/login.php [NC]
+ErrorDocument 404 /www/thili/404.php
