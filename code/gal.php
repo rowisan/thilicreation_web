@@ -8,7 +8,10 @@
         <meta name="description" content="Gamma Gallery - A Responsive Image Gallery Experiment"/>
         <meta name="keywords" content="html5, responsive, image gallery, masonry, picture, images, sizes, fluid, history api, visibility api"/>
         <meta name="author" content="Codrops"/>
-        <link rel="shortcut icon" href="../favicon.ico"> 
+
+        <title>Thili Creations - Photo Gallery</title>
+        <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+
         <link rel="stylesheet" type="text/css" href="css/style.css"/>
 
 
@@ -17,12 +20,11 @@
 
         <link href="css/modifi.css" rel="stylesheet" type="text/css">
 
-
         <script src="js/modernizr.custom.70736.js"></script>
         <noscript><link rel="stylesheet" type="text/css" href="css/noJS.css"/></noscript>
         <!--[if lte IE 7]><style>.main{display:none;} .support-note .note-ie{display:block;}</style><![endif]-->
     </head>
-    <body style="background-color: #83827f">
+    <body style="background-color: transparent">
         <div class="container">
 
 
@@ -53,7 +55,7 @@
 
                 </header>
 
-                <div class="gamma-container gamma-loading" id="gamma-container">
+                <div class="gamma-container gamma-loading" id="gamma-container" style="margin-top:80px">
 
                     <ul class="gamma-gallery">
                         <?php
@@ -86,8 +88,6 @@
                     </ul>
 
                     <div class="gamma-overlay"></div>
-
-                    <!--<div id="loadmore" class="loadmore">Example for loading more items...</div>-->
 
                 </div>
 
@@ -191,5 +191,18 @@
             });
 
         </script>	
+
+        <style>
+
+            html { 
+                background: url(./img/bg1.jpg) no-repeat bottom center fixed;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+                background-color: transparent
+            }
+        </style>
+
     </body>
 </html>
